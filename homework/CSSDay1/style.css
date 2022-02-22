@@ -1,0 +1,17 @@
+* {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+}
+
+table caption {
+    font-variant: small-caps;
+}
+
+.onFocus:focus {
+    background-color: lightgray;
+}
