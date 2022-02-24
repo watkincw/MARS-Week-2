@@ -1,0 +1,22 @@
+* {
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+
+table {
+    text-align: center;
+}
+
+table caption {
+    font-variant: small-caps;
+    font-size: 2em;
+}
+
+table td {
+    font-size: 2vw;
+}
+
+.onFocus:focus {
+    background-color: lightgray;
+}
