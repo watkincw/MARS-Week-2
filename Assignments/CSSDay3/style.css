@@ -4,19 +4,39 @@
     text-align: center;
 }
 
-table {
-    text-align: center;
+body {
+    background-color: grey;
 }
 
-table caption {
-    font-variant: small-caps;
-    font-size: 2em;
+.container {
+    background-color: red;
 }
 
-table td {
-    font-size: 2vw;
+/* Tabs */
+.tabBtns {
+    background-color: rgb(114, 0, 0);
+    border: none;
+    height: 60px;
+    width: 150px;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: xx-large;
 }
 
-.onFocus:focus {
-    background-color: lightgray;
+.tabBtns:hover {
+    background-color: rgb(184, 62, 62);
+    color: black;
+}
+
+.tabBtns:focus {
+    background-color: black;
+    color: white;
+}
+/* End Tabs */
+
+iframe {
+    width: 600px;
+    height: 400px;
+    background-color: grey;
+    border: none;
 }
