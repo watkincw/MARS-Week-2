@@ -74,3 +74,14 @@ div.fontstyle {
     background-color: aliceblue;
     font: oblique small-caps 2em Sofia;
 }
+
+#color {
+    border: 2px blue dotted;
+}
+
+body {
+    background-image: url(bg-image/birds.jpg);
+    background-repeat: no-repeat;
+    background-size: 400px;
+    background-attachment: fixed;
+}
